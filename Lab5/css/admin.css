@@ -1,0 +1,74 @@
+﻿#nav
+{
+    font-size: 110%;
+    text-align: left;
+}
+
+#nav a:link
+{
+    vertical-align: super;
+	color:navy;
+}
+#nav a:hover{
+	font-weight:bold;
+}
+#nav a:vizited{
+	color:#b30000;
+}
+
+#nav table 
+{
+    width: 100%;
+    border: 0;
+    border-collapse: collapse;
+}
+
+#nav tr 
+{
+     vertical-align: top;
+     height: 100%;
+}
+#nav td 
+{
+    background-image: url('../icons/nav.gif');
+	background-repeat: repeat-x;
+	height: 10px;
+}
+#nav img 
+{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+#login
+{
+    text-align: left;
+	vertical-align: top;
+	font-size: 90%;
+    font-weight: bold;
+}
+#title {
+border-bottom: ridge 1px navy; 
+font-size:14pt;
+vertical-align:middle;
+color:#003366;text-align:left;
+}
+.inline
+{
+	display: inline;
+}
+
+#content {
+    
+   width: 50%;
+    border: 0;
+    border-collapse: collapse;
+    
+    
+}
+
+#content table {
+    
+   width: 50%;
+    border: 1;
+}
